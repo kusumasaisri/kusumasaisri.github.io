@@ -18,9 +18,13 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+gem 'asciidoctor', '~> 1.5'
+gem 'coderay', '1.1.0'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
+  gem "jekyll-asciidoc"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
