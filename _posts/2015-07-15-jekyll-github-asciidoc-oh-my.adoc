@@ -55,7 +55,7 @@ This results in a git project history of two parallel never connecting branches;
 
 Anyway, if this approach to maintaining a blog appeals, then feel free to copy and adapt for yourself.
 
-[source,ruby,indent=0]
+[source,c,indent=0]
 ----
-include::src/test.java[]
+include::src/test.c[]
 ----
